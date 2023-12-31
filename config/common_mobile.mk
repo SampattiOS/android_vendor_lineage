@@ -15,11 +15,11 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 PRODUCT_PACKAGES += \
     Backgrounds \
-    Eleven \
     Etar \
     Jelly \
     Profiles \
-    Seedvault
+    Seedvault \
+    Ymusic
 
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
 PRODUCT_PACKAGES += \
