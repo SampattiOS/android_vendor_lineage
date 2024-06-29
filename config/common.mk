@@ -128,6 +128,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     build-manifest
 
+# Clocks
+PRODUCT_PACKAGES += \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Flex \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-Weather
+
 # Lineage packages
 ifeq ($(PRODUCT_IS_ATV),)
 PRODUCT_PACKAGES += \
